@@ -23,7 +23,55 @@ print(mijn_variabele)
 mijn_variabele = 127 // 3
 print(mijn_variabele)
 "_______________________________________________________________________________________________________________________"
+"Speciale waarden"
+a = math.inf
+print(a)
+a = math.nan
+print(a)
+"_______________________________________________________________________________________________________________________"
+"Vergelijkingsoperatoren"
+print(5 == 5)
+print(5 != 5)
+print(5 > 5)
+print(5 < 5)
+print(5 >= 5)
+print(5 <= 5)
+"_______________________________________________________________________________________________________________________"
+"If statements"
+if 5 == 5:
+    print('5 is gelijk aan 5')
 
+if 5 != 5:
+    print('5 is niet gelijk aan 5')
+else:
+    print('5 is gelijk aan 5')
 
+if 5 > 5:
+    print('5 is groter dan 5')
+elif 5 < 5:
+    print('5 is kleiner dan 5')
+else:
+    print('5 is gelijk aan 5')
+"_______________________________________________________________________________________________________________________"
+"For loops"
+# [a, b, c] is een list. Een list is een iterable zoals in Java.
+for i in ['a', 'b', 'c']:
+    print(i, end=' ')
+
+print()
+for i in range(5):
+    print(i, end=' ')
+
+print()
+for i in range(5, 10):
+    print(i, end=' ')
+
+print()
+for i in range(5, 10, 2):
+    print(i, end=' ')
+
+print()
+for i in range(10, 5, -1):
+    print(i, end=' ')
 
 
