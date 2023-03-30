@@ -1,10 +1,18 @@
+import pandas as pd
+import numpy as np
+lijst = [1, 2, 3]
+array = np.array(lijst)
+print(array)
+print(type(array))
 
-print('Wat is Betsy?')
-Betsy = input()
+arr = np.random.randint(6, size=10)
+lijst = arr.tolist()
+print(lijst)
+print(type(lijst))
 
-if (Betsy == "bol") or (Betsy == "bolle"):
-    print("We hebben een bolle Betsy!!!")
-elif (Betsy == "Pruillipje") or (Betsy == "pruillipje"):
-    print("Pruillipje?")
-elif (Betsy != "bolle") or (Betsy != "bol") or (Betsy != "pruillipje") or (Betsy!= "Pruillipje"):
-    print("Geen bolle Betsy :(")
+series = pd.Series([1, 5, 8, 10, 50])
+print((series * 3).to_list())
+print(series * 3)
+print((series + 10).to_list())
+series2 = pd.Series([25, 5, 6, 9, 10, 11])
+print((series + series2).to_list())

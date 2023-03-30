@@ -10,4 +10,7 @@ print(series.tolist())
 series = pd.Series([2, 2, 0, 5, 1, 4, 4, 0, 0, 3])
 print(series.tolist)
 "Vermenigvuldigen = vermenigvuldigt met de getallen, list om plek te besparen"
-print(((series) * 3).tolist)
+series = pd.Series([2, 2, 0, 5, 1, 4, 4, 0, 0, 3])
+print((series * 3).tolist())
+"Optellen, ook tolist"
+print((series + 10).tolist())
