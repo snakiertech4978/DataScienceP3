@@ -1,3 +1,4 @@
+import math
 # Sturges
 m = math.ceil(1 + math.log2(n))
 print(f'm = {m}')

@@ -10,7 +10,8 @@ lijst = arr.tolist()
 print(lijst)
 print(type(lijst))
 
-series = pd.Series([1, 5, 8, 10, 50])
+series = pd.Series([1,
+                    5, 8, 10, 50])
 print((series * 3).to_list())
 print(series * 3)
 print((series + 10).to_list())

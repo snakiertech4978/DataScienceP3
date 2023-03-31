@@ -13,4 +13,5 @@ schema_df = pd.read_csv('data/survey_results_schema.csv')
 print(schema_df)
 print(df.head(10))
 print(df.tail(10))
+print(df.describe())
 
